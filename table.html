@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Periodic Table</title>
+  <style>
+    .periodic-table {
+      display: flex;
+      flex-direction: row;
+      grid-gap: 4px;
+    }
+    
+    .element {
+      padding: 8px;
+      height: auto;
+      width: 48px;
+      margin: 4px 4px;
+      text-align: center;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+    }
+    
+    .s-block {
+      background-color: #a7c957;
+    }
+    
+    .p-block {
+      background-color: #57c9a7;
+    }
+    
+    .d-block {
+      background-color: #5781c9;
+    }
+    
+    .f-block {
+      background-color: #c957a7;
+    }
+    .periodic-table{
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+    }
+    .row{
+      display: flex;
+    }
+    .spacer{
+      flex-grow: 1;
+    }
+    .row-bottom{
+      display: flex;
+      width: 98vw;
+      justify-content: center;
+    }
+</style>
+</head>
+<body>
+    <div class="periodic-table">
+      <div class="row">
+        <div class="element s-block">H</div>
+        <div class="spacer"></div>
+        <div class="element s-block">He</div>
+      </div>
+      <div class="row">
+          <div class="element s-block left">Li</div>
+          <div class="element s-block left">Be</div>
+          <div class="spacer"></div>
+          <div class="element p-block right">B</div>
+          <div class="element p-block right">C</div>
+          <div class="element p-block right">N</div>
+          <div class="element p-block right">O</div>
+          <div class="element p-block right">F</div>
+          <div class="element p-block right">Ne</div>
+      </div>
+      <div class="row">
+      <div class="element s-block">Na</div>
+      <div class="element s-block">Mg</div>
+      <div class="spacer"></div>
+      <div class="element p-block">Al</div>
+      <div class="element p-block">Si</div>
+      <div class="element p-block">P</div>
+      <div class="element p-block">S</div>
+      <div class="element p-block">Cl</div>
+      <div class="element p-block">Ar</div> 
+      </div>
+      <div class="row">
+        <div class="element s-block">K</div>
+        <div class="element s-block">Ca</div>
+        <div class="spacer"></div>
+        <div class="element d-block">Sc</div>
+        <div class="element d-block">Ti</div>
+        <div class="element d-block">V</div>
+        <div class="element d-block">Cr</div>
+        <div class="element d-block">Mn</div>
+        <div class="element d-block">Fe</div>
+        <div class="element d-block">Co</div>
+        <div class="element d-block">Ni</div>
+        <div class="element d-block">Cu</div>
+        <div class="element d-block">Zn</div>
+        <div class="element p-block">Ga</div>
+        <div class="element p-block">Ge</div>
+        <div class="element p-block">As</div>
+        <div class="element p-block">Se</div>
+        <div class="element p-block">Br</div>
+        <div class="element p-block">Kr</div>
+      </div>
+      <div class="row">
+        <div class="element s-block">Rb</div>
+        <div class="element s-block">Sr</div>
+        <div class="spacer"></div>
+        <div class="element d-block">Y</div>
+        <div class="element d-block">Zr</div>
+        <div class="element d-block">Nb</div>
+        <div class="element d-block">Mo</div>
+        <div class="element d-block">Tc</div>
+        <div class="element d-block">Ru</div>
+        <div class="element d-block">Rh</div>
+        <div class="element d-block">Pd</div>
+        <div class="element d-block">Ag</div>
+        <div class="element d-block">Cd</div>
+        <div class="element p-block">In</div>
+        <div class="element p-block">Sn</div>
+        <div class="element p-block">Sb</div>
+        <div class="element p-block">Te</div>
+        <div class="element p-block">I</div>
+        <div class="element p-block">Xe</div>
+      </div>
+      <div class="row">
+        <div class="element s-block">Cs</div>
+        <div class="element s-block">Ba</div>
+        <div class="spacer"></div>
+        <div class="element d-block">Lu</div>
+        <div class="element d-block">Hf</div>
+        <div class="element d-block">Ta</div>
+        <div class="element d-block">W</div>
+        <div class="element d-block">Re</div>
+        <div class="element d-block">Os</div>
+        <div class="element d-block">Ir</div>
+        <div class="element d-block">Pt</div>
+        <div class="element d-block">Au</div>
+        <div class="element d-block">Hg</div>
+        <div class="element p-block">Tl</div>
+        <div class="element p-block">Pb</div>
+        <div class="element p-block">Bi</div>
+        <div class="element p-block">Po</div>
+        <div class="element p-block">At</div>
+        <div class="element p-block">Rn</div>
+      </div>
+      <div class="row">
+        <div class="element s-block">Fr</div>
+        <div class="element s-block">Ra</div>
+        <div class="spacer"></div>
+        <div class="element d-block">Lr</div>
+        <div class="element d-block">Rf</div>
+        <div class="element d-block">Db</div>
+        <div class="element d-block">Sg</div>
+        <div class="element d-block">Bh</div>
+        <div class="element d-block">Hs</div>
+        <div class="element d-block">Mt</div>
+        <div class="element d-block">Ds</div>
+        <div class="element d-block">Rg</div>
+        <div class="element d-block">Cn</div>
+        <div class="element p-block">Nh</div>
+        <div class="element p-block">Fl</div>
+        <div class="element p-block">Mc</div>
+        <div class="element p-block">Lv</div>
+        <div class="element p-block">Ts</div>
+        <div class="element p-block">Og</div>
+      </div>
+      <div class="row-bottom">
+        <div class="element f-block">La</div>
+        <div class="element f-block">Ce</div>
+        <div class="element f-block">Pr</div>
+        <div class="element f-block">Nd</div>
+        <div class="element f-block">Pm</div>
+        <div class="element f-block">Sm</div>
+        <div class="element f-block">Eu</div>
+        <div class="element f-block">Gd</div>
+        <div class="element f-block">Tb</div>
+        <div class="element f-block">Dy</div>
+        <div class="element f-block">Ho</div>
+        <div class="element f-block">Er</div>
+        <div class="element f-block">Tm</div>
+        <div class="element f-block">Yb</div>
+      </div>
+      <div class="row-bottom">
+        <div class="element f-block">Ac</div>
+        <div class="element f-block">Th</div>
+        <div class="element f-block">Pa</div>
+        <div class="element f-block">U</div>
+        <div class="element f-block">Np</div>
+        <div class="element f-block">Pu</div>
+        <div class="element f-block">Am</div>
+        <div class="element f-block">Cm</div>
+        <div class="element f-block">Bk</div>
+        <div class="element f-block">Cf</div>
+        <div class="element f-block">Es</div>
+        <div class="element f-block">Fm</div>
+        <div class="element f-block">Md</div>
+        <div class="element f-block">No</div>
+      </div>
+    </div>
+</body>
+</html>
